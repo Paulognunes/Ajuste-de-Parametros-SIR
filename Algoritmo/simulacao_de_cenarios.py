@@ -470,7 +470,7 @@ if __name__ == '__main__':
     nos_infectados = []
     nos_recuperados = []
 
-    simulacao_simples("4grafo.graphml", 0.01173, 0.04007, 365, 0, "simulacao_simples.pdf")
+    nos_infectados = simulacao_simples("4grafo.graphml", 0.01173, 0.04007, 365, 685, "simulacao_simples.pdf")
 
     simulacao_aumento_de_interacoes_sociais("4grafo.graphml", 0.01173, 0.04007, 365, nos_infectados, 0.4,
                                             "simulacao_relaxamento.pdf")
